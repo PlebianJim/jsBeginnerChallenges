@@ -1,5 +1,73 @@
 * {
    padding: 0;
    margin: auto;
-   box-sizing: border-box; 
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   width: 100vw;
+}
+
+hr {
+   align-items: center;
+   color: grey;
+   background-color: grey;
+   width: 100%;
+   padding: 0.025rem;
+   margin: 1rem;
+}
+
+.all-challenge-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 90%;
+   border: solid 1px black;
+   padding: 1%;
+}
+
+.individual-challenge-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid black;
+   padding: 1%;
+   margin: 1%;
+}
+
+.challenge-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.h1-challenge-title {
+   display: flex;
+   text-align: center;
+}
+
+.p-challenge-description {
+   display: flex;
+   width: 90%;
+}
+
+.completed-challenge-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.completed-challenge-container-chall-two {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
